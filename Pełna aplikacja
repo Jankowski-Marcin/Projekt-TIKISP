@@ -1,0 +1,6719 @@
+[
+    {
+        "id": "108893f97a72a208",
+        "type": "tab",
+        "label": "Home Użytkownicy",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3077a23406feb258",
+        "type": "tab",
+        "label": "Klient0",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a832f1c1999136bc",
+        "type": "tab",
+        "label": "Klient1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "31f3e8585a966214",
+        "type": "tab",
+        "label": "Klient2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "609f8040b3bdfd24",
+        "type": "tab",
+        "label": "Klient3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "38affffdb028d121",
+        "type": "tab",
+        "label": "Klient4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "174656ca14df8e7b",
+        "type": "tab",
+        "label": "Tabela zamówień",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0925afac21226919",
+        "type": "tab",
+        "label": "Home Admin",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2245ea0f0c08e762",
+        "type": "tab",
+        "label": "Zamowienia",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "27aeadd781dd21d5",
+        "type": "tab",
+        "label": "Magazyn",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3a2be6d3e40d05be",
+        "type": "tab",
+        "label": "Baza Danych",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9953461bdb0b0b2e",
+        "type": "tab",
+        "label": "Serial Communication",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "86f57378d5c3c3c0",
+        "type": "sqlitedb",
+        "db": "/home/pi/sqlite/ProdLine.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "de7036f6330f7a85",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "170301ed66185882",
+        "type": "ui_tab",
+        "name": "Klient",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a565d66af8b50b07",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "170301ed66185882",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "e348a4dffdc473b1",
+        "type": "ui_group",
+        "name": "Klient0",
+        "tab": "170301ed66185882",
+        "order": 2,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "f7fce127b0afa7d9",
+        "type": "ui_group",
+        "name": "Klient1",
+        "tab": "170301ed66185882",
+        "order": 3,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "d3e90d81c0fd129b",
+        "type": "ui_group",
+        "name": "Klient2",
+        "tab": "170301ed66185882",
+        "order": 4,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "583ff22e60774107",
+        "type": "ui_group",
+        "name": "Klient3",
+        "tab": "170301ed66185882",
+        "order": 5,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "5811db413307e930",
+        "type": "ui_group",
+        "name": "Klient4",
+        "tab": "170301ed66185882",
+        "order": 6,
+        "disp": false,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "68016190d4bc6b36",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "170301ed66185882",
+        "order": 7,
+        "disp": false,
+        "width": 13,
+        "collapse": false
+    },
+    {
+        "id": "a7ade03e635ef61d",
+        "type": "ui_tab",
+        "name": "Obsługa",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ea6c8824a70a2126",
+        "type": "ui_group",
+        "name": "Logowanie",
+        "tab": "a7ade03e635ef61d",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "eaf8650af2fe91ea",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "a7ade03e635ef61d",
+        "order": 2,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c8f43294042d1124",
+        "type": "ui_group",
+        "name": "Zamowienia",
+        "tab": "a7ade03e635ef61d",
+        "order": 3,
+        "disp": false,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "87bdf13b0645e7a7",
+        "type": "ui_group",
+        "name": "Magazyn",
+        "tab": "a7ade03e635ef61d",
+        "order": 4,
+        "disp": false,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "505f6a75156b2e88",
+        "type": "serial-port",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "1",
+        "bin": "false",
+        "out": "count",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "fa5f17a2ded92777",
+        "type": "ui_group",
+        "name": "BazaDanych",
+        "tab": "a7ade03e635ef61d",
+        "order": 5,
+        "disp": false,
+        "width": 18,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e352001761951605",
+        "type": "ui_group",
+        "name": "BazaDanychcd",
+        "tab": "a7ade03e635ef61d",
+        "order": 6,
+        "disp": false,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3f6c4aa5245efee4",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1fd564c243150759",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b2479d909b8aa432",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "25ecee2cec9efdb9",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2554a400fae13af7",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "132eb58ed74c24a7",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3333b068479b6dca",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "a565d66af8b50b07",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d73344df6296674",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "210eb974bccee477",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "367e54737d2c6bd9",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c471c1fa378cbb7",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e98af4042ade498c",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3eff7c3019ab0d96",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65278c649798684e",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5026fecd112a4d15",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cb7d26e7c9217de1",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "548deb824885514d",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "e348a4dffdc473b1",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b36a6ce881849362",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "92f9cba3ea95e29e",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ce006f6818338b80",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "23da332b16dae461",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "93d987982c4a523b",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2399551ed05a9d3e",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6380cd38dac524dd",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "ab3906e6a61f2c64",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "956cd2a836d6593f",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "794c621ff8743470",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "f7fce127b0afa7d9",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "ddfe4266cd04baed",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6cb666066b8f1d87",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0152934e7fa61b73",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8c99ed95a85c0209",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4ea1131fd751fe38",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c5599fc128c8b4ac",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "268f85323deb1017",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5762121a8ab52767",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e04334ac3703f0c8",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fa1a89bec57f1d1f",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "d3e90d81c0fd129b",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a74a4172b7418ac1",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "62af1f8690bd3b60",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c8ba06270682be54",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2a29b17af224e049",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e16e34c9aa11483b",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0cb127cbec99b587",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ad92df61d9fc922",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7bf2f790bec0bd0c",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "36a5906bc2a62416",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a2e938d126288e6c",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "583ff22e60774107",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4ed764119fedd8b7",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7a35360a74753aae",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f384e1eee6f71c32",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9d3e29e22dc0c8b3",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ee60cbb5046f6a4a",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0c82896646bfc339",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3722ab80187493d5",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "19d4c69e44093637",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9a7535c73ba43f49",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfe0a87188ce657b",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "5811db413307e930",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5ea94857cc6169a9",
+        "type": "ui_spacer",
+        "z": "174656ca14df8e7b",
+        "name": "spacer",
+        "group": "68016190d4bc6b36",
+        "order": 4,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "e08a6294c8fa7e08",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b3cfe55a0d68f50f",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "95917f6faa3685b9",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "23c31fe3e494b733",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "efd6491ce9880ffa",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "99b8db1e23a29dc2",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aa2eb6dadfb08320",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8fd67053112e6d69",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "f5dbc0f1e4864ef5",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "eaf8650af2fe91ea",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5306c0ed301e8b2e",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b14d50aed0ddddc",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f8602d7f6496de0",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2c883c5549ad7676",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "610c0cfb8a327169",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3acba4e9c83c7606",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aeb6986eebdc2201",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "45db0b396785f7a8",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 17,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "06cd8afc88449b08",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "c8f43294042d1124",
+        "order": 18,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "07c330363f5b0ff6",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "8fc7c03ef2c9e1f5",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fba8964687ba42b8",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e9068f35930ed0c1",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ae7eaff335c9f738",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "39234ccfa6d8b01c",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c7334fabe312b2e",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d0ddf00436d616d4",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 17,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "99f5e3b3032d4a02",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 18,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "4fb82454c4eb7795",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "87bdf13b0645e7a7",
+        "order": 19,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "3a5a70f7c8423ca6",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "fa5f17a2ded92777",
+        "order": 9,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "7a6e31ec447b1791",
+        "type": "ui_spacer",
+        "z": "3a2be6d3e40d05be",
+        "name": "spacer",
+        "group": "e352001761951605",
+        "order": 6,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "2cdde62cc016dc64",
+        "type": "ui_ui_control",
+        "z": "108893f97a72a208",
+        "name": "Connect?",
+        "events": "all",
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "8948b5325f6cb8ce",
+                "6d9995eed2954535"
+            ]
+        ]
+    },
+    {
+        "id": "db0b108e4b7c3a40",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "Do formularzu zamówienia",
+        "func": "var board=global.get(\"dashboard\")+\"_\";\nvar group=global.get(\"group\");\nvar timeout=10;\nvar clients=flow.get(\"ClientsArray\");\n//sprawdzanie dostępności paneli\nindex=clients.socketid.indexOf(\"\");//unociupied index\nif(index>=0){\n    clients.socketid[index]=msg.socketid;\n    clients.timeout[index]=timeout;\n    msg.payload = {group:{show:board+group+index,hide:board+\"Home\",focus:\"yes\"}};\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var clients = {\n  socketid: [\"\",\"\",\"\",\"\",\"\"],\n  timeout: [0,0,0,0,0]\n};\nflow.set(\"ClientsArray\",clients);",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "bc8957829766d619",
+                "ab15f5e98406c77e"
+            ]
+        ]
+    },
+    {
+        "id": "8948b5325f6cb8ce",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "On Connect",
+        "func": "if(msg.payload==\"connect\"){\nvar board=global.get(\"dashboard\")+\"_\";\nvar group=global.get(\"group\");\n\nvar control = {group:{show:0,hide:0,focus:\"yes\"}};\n\ncontrol.group.show=[board+\"Home\"];\ncontrol.group.hide=[board+group+\"0\",board+group+\"1\",board+group+\"2\",board+group+\"3\",board+group+\"4\",board+\"Tabela\"];\nmsg.payload=control;\nreturn msg;}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "bc8957829766d619",
+                "ab15f5e98406c77e"
+            ]
+        ]
+    },
+    {
+        "id": "bc8957829766d619",
+        "type": "ui_ui_control",
+        "z": "108893f97a72a208",
+        "name": "",
+        "events": "all",
+        "x": 700,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "214bf86c4ed1bafb",
+        "type": "ui_button",
+        "z": "108893f97a72a208",
+        "name": "złóż zamówienie",
+        "group": "a565d66af8b50b07",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "order",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 380,
+        "wires": [
+            [
+                "db0b108e4b7c3a40"
+            ]
+        ]
+    },
+    {
+        "id": "90cdf33f66a88852",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "Nazwy interface",
+        "func": "\n//wszystko jest w \"On start\"",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "global.set(\"dashboard\",\"Klient\");\nglobal.set(\"group\",\"Klient\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 120,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d9995eed2954535",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "Close",
+        "func": "if(msg.payload==\"lost\"){\nvar board=global.get(\"dashboard\")+\"_\";\nvar group=global.get(\"group\");\nvar clients=flow.get(\"ClientsArray\");\n// index of disconected user\nindex=clients.socketid.indexOf(msg.socketid);\nif(index>=0){\n    clients.socketid[index]=\"\";\n    clients.timeout[index]=0;\n    msg.payload = {group:{show:board+\"Home\",hide:board+group+index,focus:\"yes\"}};\n}\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "bc8957829766d619",
+                "ab15f5e98406c77e"
+            ]
+        ]
+    },
+    {
+        "id": "ab15f5e98406c77e",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "sprawdzanie dostępności",
+        "func": "var clients=flow.get(\"ClientsArray\");\nindex=clients.socketid.indexOf(\"\");//unociupied index\nif(index>=0){\n    msg.payload=\"Złóż zamowienie\";\n}\nelse{\n    msg.payload=\"Maksymalna liczba zamawiających\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 320,
+        "wires": [
+            [
+                "214bf86c4ed1bafb"
+            ]
+        ]
+    },
+    {
+        "id": "536deb2ba9f007be",
+        "type": "inject",
+        "z": "108893f97a72a208",
+        "name": "on start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "connect",
+        "payloadType": "str",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "8948b5325f6cb8ce",
+                "8d2e11db3641682e"
+            ]
+        ]
+    },
+    {
+        "id": "ee092524f3160692",
+        "type": "link in",
+        "z": "108893f97a72a208",
+        "name": "close",
+        "links": [
+            "0ead29cda4944462",
+            "29b2df601d2b9964",
+            "3425a4a92633bae7",
+            "429d29ca1247c8fa",
+            "49f27a1752fa81f1"
+        ],
+        "x": 395,
+        "y": 260,
+        "wires": [
+            [
+                "6d9995eed2954535"
+            ]
+        ]
+    },
+    {
+        "id": "8d2e11db3641682e",
+        "type": "link out",
+        "z": "108893f97a72a208",
+        "name": "reboot",
+        "mode": "link",
+        "links": [
+            "244dbe6c1912363a",
+            "2d52b1140691ccfd",
+            "5448865794266967",
+            "ac707c582464364a",
+            "cef1cdc32d598a5f"
+        ],
+        "x": 245,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b632621b57761a9c",
+        "type": "ui_button",
+        "z": "108893f97a72a208",
+        "name": "Pokaż zamówienie",
+        "group": "a565d66af8b50b07",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Sprawdź status zamówienia",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 540,
+        "wires": [
+            [
+                "7e7d942866764b33"
+            ]
+        ]
+    },
+    {
+        "id": "7e7d942866764b33",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "Do Tabeli Zamówień",
+        "func": "var board=global.get(\"dashboard\")+\"_\";\nvar group=global.get(\"group\");\n    msg.payload = {group:{show:board+\"Tabela\",hide:board+\"Home\",focus:\"yes\"}};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "5f6fd799e4377289",
+                "399758448e7aa950"
+            ]
+        ]
+    },
+    {
+        "id": "5f6fd799e4377289",
+        "type": "ui_ui_control",
+        "z": "108893f97a72a208",
+        "name": "",
+        "events": "all",
+        "x": 620,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a48a29e9c0b6e046",
+        "type": "ui_text",
+        "z": "108893f97a72a208",
+        "group": "a565d66af8b50b07",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Menu Główne",
+        "layout": "row-center",
+        "className": "",
+        "x": 320,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "22c2c04bbb7307e0",
+        "type": "ui_button",
+        "z": "108893f97a72a208",
+        "name": "",
+        "group": "a565d66af8b50b07",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "O linii Produkcyjnej",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "399758448e7aa950",
+        "type": "link out",
+        "z": "108893f97a72a208",
+        "name": "Odśwież tabelę zamówień",
+        "mode": "link",
+        "links": [
+            "8ce9e8efefb97b81",
+            "6f672be17ebb2a93",
+            "47250bff8b84f659",
+            "014c0b99aebc6583"
+        ],
+        "x": 515,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "cbc571a00ce1bc0c",
+        "type": "comment",
+        "z": "108893f97a72a208",
+        "name": "Obsługa formularzy zamówień",
+        "info": "",
+        "x": 460,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "533b7e394272d0bb",
+        "type": "comment",
+        "z": "108893f97a72a208",
+        "name": "Przejście do tableli zamówień",
+        "info": "",
+        "x": 460,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "bc91aa275723315b",
+        "type": "function",
+        "z": "108893f97a72a208",
+        "name": "Do menu głównego",
+        "func": "var board=global.get(\"dashboard\")+\"_\";\nvar group=global.get(\"group\");\n    msg.payload = {group:{show:board+\"Home\",hide:board+\"Tabela\",focus:\"yes\"}};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "5f6fd799e4377289"
+            ]
+        ]
+    },
+    {
+        "id": "fef047be1678f1f6",
+        "type": "link in",
+        "z": "108893f97a72a208",
+        "name": "Zamknij Tabela",
+        "links": [
+            "72c3169a1602c74e"
+        ],
+        "x": 195,
+        "y": 580,
+        "wires": [
+            [
+                "bc91aa275723315b"
+            ]
+        ]
+    },
+    {
+        "id": "489c543c82f854d0",
+        "type": "ui_text_input",
+        "z": "3077a23406feb258",
+        "name": "",
+        "label": "Imię",
+        "tooltip": "",
+        "group": "e348a4dffdc473b1",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Imie",
+        "topicType": "str",
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "85fd1f2a3bb6a912"
+            ]
+        ]
+    },
+    {
+        "id": "6e02bad5d038b1df",
+        "type": "ui_text_input",
+        "z": "3077a23406feb258",
+        "name": "",
+        "label": "Nazwisko",
+        "tooltip": "",
+        "group": "e348a4dffdc473b1",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Nazwisko",
+        "topicType": "str",
+        "x": 380,
+        "y": 220,
+        "wires": [
+            [
+                "85fd1f2a3bb6a912"
+            ]
+        ]
+    },
+    {
+        "id": "74a2cfe52e048df9",
+        "type": "ui_button",
+        "z": "3077a23406feb258",
+        "name": "Zatwierdź",
+        "group": "e348a4dffdc473b1",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Zatwierdź",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "order",
+        "topicType": "str",
+        "x": 380,
+        "y": 300,
+        "wires": [
+            [
+                "b574774a6f0b0658"
+            ]
+        ]
+    },
+    {
+        "id": "d45249dd46356900",
+        "type": "ui_button",
+        "z": "3077a23406feb258",
+        "name": "",
+        "group": "e348a4dffdc473b1",
+        "order": 17,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Anuluj",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-close",
+        "payload": "lost",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "49f27a1752fa81f1",
+                "246fc28b898e7a22"
+            ]
+        ]
+    },
+    {
+        "id": "ff5b16821bdccd39",
+        "type": "ui_dropdown",
+        "z": "3077a23406feb258",
+        "name": "Kolor",
+        "label": "",
+        "tooltip": "",
+        "place": "Wybierz Kolor Nadwozia",
+        "group": "e348a4dffdc473b1",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pomarańczowy",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Czarny",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Biały",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "Kolor",
+        "topicType": "str",
+        "className": "",
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "85fd1f2a3bb6a912"
+            ]
+        ]
+    },
+    {
+        "id": "85fd1f2a3bb6a912",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "tworzenie obiektu zamówienia",
+        "func": "var order = flow.get(\"order\");\nswitch (msg.topic){\n    case \"Imie\":\n        order.imie=msg.payload;\n        break;\n    case \"Nazwisko\":\n        order.nazwisko=msg.payload;\n        break;\n    case \"Kolor\":\n        order.id_koloru=msg.payload;\n}\nflow.set(\"order\",order);\nmsg.payload=order;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\nflow.set(\"order\",order);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b574774a6f0b0658",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "Sprawdzanie poprawności zamówienia",
+        "func": "var order=flow.get(\"order\");\nif(order.imie==\"\"){\n    msg.payload=\"Wprowadź Imię!\";\n    msg.topic='red';\n    return msg;\n}\nif(order.nazwisko==\"\"){\n    msg.payload=\"Wprowadź Nazwisko!\";\n     msg.topic='red';\n    return msg;\n}\nif(order.id_koloru==\"\"){\n    msg.payload=\"Musisz wybrać Kolor!\";\n     msg.topic='red';\n    return msg;\n}\nmsg.payload=\"Dziękujemy za złożenie zamówienia!\";\nmsg.topic='green';\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 300,
+        "wires": [
+            [
+                "88c8a52051c355a2",
+                "6b5ec92bbfb4829c",
+                "2e6293fa48193207"
+            ]
+        ]
+    },
+    {
+        "id": "88c8a52051c355a2",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "Składanie zamówienia",
+        "func": "if(msg.topic==\"green\"){\n    msg.order=flow.get(\"order\");\n    var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\n    flow.set(\"order\",order);\n    return msg;}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 260,
+        "wires": [
+            [
+                "482021b2edde8fe1"
+            ]
+        ]
+    },
+    {
+        "id": "49f27a1752fa81f1",
+        "type": "link out",
+        "z": "3077a23406feb258",
+        "name": "close",
+        "mode": "link",
+        "links": [
+            "ee092524f3160692"
+        ],
+        "x": 1265,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "246fc28b898e7a22",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "reset fromularza",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "ff5b16821bdccd39",
+                "6e02bad5d038b1df",
+                "489c543c82f854d0",
+                "2e6293fa48193207"
+            ]
+        ]
+    },
+    {
+        "id": "6b5ec92bbfb4829c",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "Zamykanie formularza",
+        "func": "if(msg.payload==\"Dziękujemy za złożenie zamówienia!\"){\n    msg.payload=\"lost\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 320,
+        "wires": [
+            [
+                "58c51cf93aa95110"
+            ]
+        ]
+    },
+    {
+        "id": "482021b2edde8fe1",
+        "type": "link out",
+        "z": "3077a23406feb258",
+        "name": "order",
+        "mode": "link",
+        "links": [
+            "4d27276c9cca2c84",
+            "a563096ba7d8102f"
+        ],
+        "x": 1145,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2d52b1140691ccfd",
+        "type": "link in",
+        "z": "3077a23406feb258",
+        "name": "reboot",
+        "links": [
+            "8d2e11db3641682e"
+        ],
+        "x": 45,
+        "y": 300,
+        "wires": [
+            [
+                "246fc28b898e7a22"
+            ]
+        ]
+    },
+    {
+        "id": "2e6293fa48193207",
+        "type": "ui_text",
+        "z": "3077a23406feb258",
+        "group": "e348a4dffdc473b1",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "Uwagi",
+        "label": "",
+        "format": "<font color={{msg.topic}}>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 370,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "3d2e444b127c438a",
+        "type": "ui_text",
+        "z": "3077a23406feb258",
+        "group": "e348a4dffdc473b1",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Formularz zamówienia",
+        "layout": "col-center",
+        "x": 380,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "58c51cf93aa95110",
+        "type": "delay",
+        "z": "3077a23406feb258",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1140,
+        "y": 320,
+        "wires": [
+            [
+                "49f27a1752fa81f1",
+                "246fc28b898e7a22"
+            ]
+        ]
+    },
+    {
+        "id": "a563096ba7d8102f",
+        "type": "link in",
+        "z": "3077a23406feb258",
+        "name": "",
+        "links": [
+            "03946c9a63d89d7e",
+            "2a8e186575674a3d",
+            "2f42306c76b4233f",
+            "3ca08e09152ffa85",
+            "482021b2edde8fe1",
+            "e4933a07ef3e61ba",
+            "a9fb27c741cc8329",
+            "cd766d6a97a84bc8",
+            "1f439720e17b04bb"
+        ],
+        "x": 165,
+        "y": 620,
+        "wires": [
+            [
+                "c95a128b1eace5c3"
+            ]
+        ]
+    },
+    {
+        "id": "22bf53725370dd7c",
+        "type": "sqlite",
+        "z": "3077a23406feb258",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 440,
+        "y": 620,
+        "wires": [
+            [
+                "4f506c647f598169",
+                "adf3ecdad47c86c7"
+            ]
+        ]
+    },
+    {
+        "id": "c95a128b1eace5c3",
+        "type": "template",
+        "z": "3077a23406feb258",
+        "name": "Sprawdzanie",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT id FROM Klienci\nWHERE imie='{{order.imie}}' \nAND nazwisko=\"{{order.nazwisko}}\";\n",
+        "output": "str",
+        "x": 280,
+        "y": 620,
+        "wires": [
+            [
+                "22bf53725370dd7c"
+            ]
+        ]
+    },
+    {
+        "id": "4f506c647f598169",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "Jest już w bazie",
+        "func": "if(msg.payload.length){\nmsg.order={\"id_klienta\":msg.payload[0].id,\"id_koloru\":msg.order.id_koloru};\nreturn msg;}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 600,
+        "wires": [
+            [
+                "b1e4baacd4ca3c47"
+            ]
+        ]
+    },
+    {
+        "id": "adf3ecdad47c86c7",
+        "type": "function",
+        "z": "3077a23406feb258",
+        "name": "jeszcze nie jest w bazie",
+        "func": "if(!msg.payload.length){\nreturn msg;}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [
+                "afc4275f7d0dc217"
+            ]
+        ]
+    },
+    {
+        "id": "cf41dd5ef1d0faf0",
+        "type": "sqlite",
+        "z": "3077a23406feb258",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1020,
+        "y": 640,
+        "wires": [
+            [
+                "c95a128b1eace5c3"
+            ]
+        ]
+    },
+    {
+        "id": "afc4275f7d0dc217",
+        "type": "template",
+        "z": "3077a23406feb258",
+        "name": "Dodaj klienta",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO Klienci (imie,nazwisko)\nVALUES ('{{order.imie}}','{{order.nazwisko}}');",
+        "output": "str",
+        "x": 880,
+        "y": 640,
+        "wires": [
+            [
+                "cf41dd5ef1d0faf0"
+            ]
+        ]
+    },
+    {
+        "id": "b1e4baacd4ca3c47",
+        "type": "template",
+        "z": "3077a23406feb258",
+        "name": "dodaj zamówienie",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "INSERT INTO Historia_produkcji \n        (id_klienta,\n        id_koloru,\n        id_statusu,\n        data_rozpoczecia,\n        data_zakonczenia)\nVALUES ('{{order.id_klienta}}',\n        '{{order.id_koloru}}',\n        4,\n        datetime('now','+2 hour'),\n        null);\n        \n        ",
+        "output": "str",
+        "x": 860,
+        "y": 600,
+        "wires": [
+            [
+                "812f6efc36381baf"
+            ]
+        ]
+    },
+    {
+        "id": "812f6efc36381baf",
+        "type": "sqlite",
+        "z": "3077a23406feb258",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1020,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8939d08f925f972",
+        "type": "comment",
+        "z": "3077a23406feb258",
+        "name": "Odbieranie zamówień",
+        "info": "",
+        "x": 650,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "84675d3a344f392b",
+        "type": "comment",
+        "z": "3077a23406feb258",
+        "name": "Budowa formularza zamówień",
+        "info": "",
+        "x": 660,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c3e13078858f2f71",
+        "type": "ui_text_input",
+        "z": "a832f1c1999136bc",
+        "name": "",
+        "label": "Imię",
+        "tooltip": "",
+        "group": "f7fce127b0afa7d9",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Imie",
+        "topicType": "str",
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "cbfe3e348974207f"
+            ]
+        ]
+    },
+    {
+        "id": "c8390aa0c73a127d",
+        "type": "ui_text_input",
+        "z": "a832f1c1999136bc",
+        "name": "",
+        "label": "Nazwisko",
+        "tooltip": "",
+        "group": "f7fce127b0afa7d9",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Nazwisko",
+        "topicType": "str",
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "cbfe3e348974207f"
+            ]
+        ]
+    },
+    {
+        "id": "b3c3091eb4206df1",
+        "type": "ui_button",
+        "z": "a832f1c1999136bc",
+        "name": "Zatwierdź",
+        "group": "f7fce127b0afa7d9",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Zatwierdź",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "order",
+        "topicType": "str",
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "0a46f00b31c656ee"
+            ]
+        ]
+    },
+    {
+        "id": "c71f348389795b19",
+        "type": "ui_button",
+        "z": "a832f1c1999136bc",
+        "name": "",
+        "group": "f7fce127b0afa7d9",
+        "order": 17,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Anuluj",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-close",
+        "payload": "lost",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "429d29ca1247c8fa",
+                "08f7552d117f0a98"
+            ]
+        ]
+    },
+    {
+        "id": "26e6e31eaff2edc5",
+        "type": "ui_dropdown",
+        "z": "a832f1c1999136bc",
+        "name": "Kolor",
+        "label": "",
+        "tooltip": "",
+        "place": "Wybierz Kolor Nadwozia",
+        "group": "f7fce127b0afa7d9",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pomarańczowy",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Czarny",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Biały",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "Kolor",
+        "topicType": "str",
+        "className": "",
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "cbfe3e348974207f"
+            ]
+        ]
+    },
+    {
+        "id": "cbfe3e348974207f",
+        "type": "function",
+        "z": "a832f1c1999136bc",
+        "name": "tworzenie obiektu zamówienia",
+        "func": "var order = flow.get(\"order\");\nswitch (msg.topic){\n    case \"Imie\":\n        order.imie=msg.payload;\n        break;\n    case \"Nazwisko\":\n        order.nazwisko=msg.payload;\n        break;\n    case \"Kolor\":\n        order.id_koloru=msg.payload;\n}\nflow.set(\"order\",order);\nmsg.payload=order;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\nflow.set(\"order\",order);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a46f00b31c656ee",
+        "type": "function",
+        "z": "a832f1c1999136bc",
+        "name": "Sprawdzanie poprawności zamówienia",
+        "func": "var order=flow.get(\"order\");\nif(order.imie==\"\"){\n    msg.payload=\"Wprowadź Imię!\";\n    msg.topic='red';\n    return msg;\n}\nif(order.nazwisko==\"\"){\n    msg.payload=\"Wprowadź Nazwisko!\";\n     msg.topic='red';\n    return msg;\n}\nif(order.id_koloru==\"\"){\n    msg.payload=\"Musisz wybrać Kolor!\";\n     msg.topic='red';\n    return msg;\n}\nmsg.payload=\"Dziękujemy za złożenie zamówienia!\";\nmsg.topic='green';\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 260,
+        "wires": [
+            [
+                "9731c6659e8fd7d8",
+                "18f07d75df30a9d6",
+                "c85bd3a036313259"
+            ]
+        ]
+    },
+    {
+        "id": "9731c6659e8fd7d8",
+        "type": "function",
+        "z": "a832f1c1999136bc",
+        "name": "Składanie zamówienia",
+        "func": "if(msg.topic==\"green\"){\n    msg.order=flow.get(\"order\");\n    var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\n    flow.set(\"order\",order);\n    return msg;}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 220,
+        "wires": [
+            [
+                "e4933a07ef3e61ba"
+            ]
+        ]
+    },
+    {
+        "id": "429d29ca1247c8fa",
+        "type": "link out",
+        "z": "a832f1c1999136bc",
+        "name": "close",
+        "mode": "link",
+        "links": [
+            "ee092524f3160692"
+        ],
+        "x": 1335,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8579e6a70ed55de5",
+        "type": "delay",
+        "z": "a832f1c1999136bc",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1160,
+        "y": 280,
+        "wires": [
+            [
+                "429d29ca1247c8fa",
+                "08f7552d117f0a98"
+            ]
+        ]
+    },
+    {
+        "id": "08f7552d117f0a98",
+        "type": "function",
+        "z": "a832f1c1999136bc",
+        "name": "reset fromularza",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "26e6e31eaff2edc5",
+                "c8390aa0c73a127d",
+                "c3e13078858f2f71",
+                "c85bd3a036313259"
+            ]
+        ]
+    },
+    {
+        "id": "18f07d75df30a9d6",
+        "type": "function",
+        "z": "a832f1c1999136bc",
+        "name": "Zamykanie formularza",
+        "func": "if(msg.payload==\"Dziękujemy za złożenie zamówienia!\"){\n    msg.payload=\"lost\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 280,
+        "wires": [
+            [
+                "8579e6a70ed55de5"
+            ]
+        ]
+    },
+    {
+        "id": "e4933a07ef3e61ba",
+        "type": "link out",
+        "z": "a832f1c1999136bc",
+        "name": "order",
+        "mode": "link",
+        "links": [
+            "4d27276c9cca2c84",
+            "a563096ba7d8102f"
+        ],
+        "x": 1165,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "244dbe6c1912363a",
+        "type": "link in",
+        "z": "a832f1c1999136bc",
+        "name": "reboot",
+        "links": [
+            "8d2e11db3641682e"
+        ],
+        "x": 65,
+        "y": 260,
+        "wires": [
+            [
+                "08f7552d117f0a98"
+            ]
+        ]
+    },
+    {
+        "id": "c85bd3a036313259",
+        "type": "ui_text",
+        "z": "a832f1c1999136bc",
+        "group": "f7fce127b0afa7d9",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "Uwagi",
+        "label": "",
+        "format": "<font color={{msg.topic}}>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "dadc77ff1f4c225a",
+        "type": "ui_text",
+        "z": "a832f1c1999136bc",
+        "group": "f7fce127b0afa7d9",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Formularz zamówienia",
+        "layout": "col-center",
+        "x": 400,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4cda03a7b4611183",
+        "type": "ui_text_input",
+        "z": "31f3e8585a966214",
+        "name": "",
+        "label": "Imię",
+        "tooltip": "",
+        "group": "d3e90d81c0fd129b",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Imie",
+        "topicType": "str",
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "9e42a967ff8f0824"
+            ]
+        ]
+    },
+    {
+        "id": "fed3e2de70356a40",
+        "type": "ui_text_input",
+        "z": "31f3e8585a966214",
+        "name": "",
+        "label": "Nazwisko",
+        "tooltip": "",
+        "group": "d3e90d81c0fd129b",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Nazwisko",
+        "topicType": "str",
+        "x": 480,
+        "y": 240,
+        "wires": [
+            [
+                "9e42a967ff8f0824"
+            ]
+        ]
+    },
+    {
+        "id": "134ea0b0ddfb794c",
+        "type": "ui_button",
+        "z": "31f3e8585a966214",
+        "name": "Zatwierdź",
+        "group": "d3e90d81c0fd129b",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Zatwierdź",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "order",
+        "topicType": "str",
+        "x": 480,
+        "y": 320,
+        "wires": [
+            [
+                "d5576e72f65570a9"
+            ]
+        ]
+    },
+    {
+        "id": "ca9187ba70ff3698",
+        "type": "ui_button",
+        "z": "31f3e8585a966214",
+        "name": "",
+        "group": "d3e90d81c0fd129b",
+        "order": 17,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Anulu",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "fa-close",
+        "payload": "lost",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "29b2df601d2b9964",
+                "77209b53149986a1"
+            ]
+        ]
+    },
+    {
+        "id": "310634afbf81663c",
+        "type": "ui_dropdown",
+        "z": "31f3e8585a966214",
+        "name": "Kolor",
+        "label": "",
+        "tooltip": "",
+        "place": "Wybierz Kolor Nadwozia",
+        "group": "d3e90d81c0fd129b",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pomarańczowy",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Czarny",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Biały",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "Kolor",
+        "topicType": "str",
+        "className": "",
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "9e42a967ff8f0824"
+            ]
+        ]
+    },
+    {
+        "id": "9e42a967ff8f0824",
+        "type": "function",
+        "z": "31f3e8585a966214",
+        "name": "tworzenie obiektu zamówienia",
+        "func": "var order = flow.get(\"order\");\nswitch (msg.topic){\n    case \"Imie\":\n        order.imie=msg.payload;\n        break;\n    case \"Nazwisko\":\n        order.nazwisko=msg.payload;\n        break;\n    case \"Kolor\":\n        order.id_koloru=msg.payload;\n}\nflow.set(\"order\",order);\nmsg.payload=order;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\nflow.set(\"order\",order);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5576e72f65570a9",
+        "type": "function",
+        "z": "31f3e8585a966214",
+        "name": "Sprawdzanie poprawności zamówienia",
+        "func": "var order=flow.get(\"order\");\nif(order.imie==\"\"){\n    msg.payload=\"Wprowadź Imię!\";\n    msg.topic='red';\n    return msg;\n}\nif(order.nazwisko==\"\"){\n    msg.payload=\"Wprowadź Nazwisko!\";\n     msg.topic='red';\n    return msg;\n}\nif(order.id_koloru==\"\"){\n    msg.payload=\"Musisz wybrać Kolor!\";\n     msg.topic='red';\n    return msg;\n}\nmsg.payload=\"Dziękujemy za złożenie zamówienia!\";\nmsg.topic='green';\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 320,
+        "wires": [
+            [
+                "945193331fc7354f",
+                "3cad4bfa870187bb",
+                "5ed8a4f79b987233"
+            ]
+        ]
+    },
+    {
+        "id": "945193331fc7354f",
+        "type": "function",
+        "z": "31f3e8585a966214",
+        "name": "Składanie zamówienia",
+        "func": "if(msg.topic==\"green\"){\n    msg.order=flow.get(\"order\");\n    var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\n    flow.set(\"order\",order);\n    return msg;}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 280,
+        "wires": [
+            [
+                "a9fb27c741cc8329"
+            ]
+        ]
+    },
+    {
+        "id": "29b2df601d2b9964",
+        "type": "link out",
+        "z": "31f3e8585a966214",
+        "name": "close",
+        "mode": "link",
+        "links": [
+            "ee092524f3160692"
+        ],
+        "x": 1415,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "0d6f08d89d9d2ae8",
+        "type": "delay",
+        "z": "31f3e8585a966214",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1240,
+        "y": 340,
+        "wires": [
+            [
+                "29b2df601d2b9964",
+                "77209b53149986a1"
+            ]
+        ]
+    },
+    {
+        "id": "77209b53149986a1",
+        "type": "function",
+        "z": "31f3e8585a966214",
+        "name": "reset fromularza",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 320,
+        "wires": [
+            [
+                "310634afbf81663c",
+                "fed3e2de70356a40",
+                "4cda03a7b4611183",
+                "5ed8a4f79b987233"
+            ]
+        ]
+    },
+    {
+        "id": "3cad4bfa870187bb",
+        "type": "function",
+        "z": "31f3e8585a966214",
+        "name": "Zamykanie formularza",
+        "func": "if(msg.payload==\"Dziękujemy za złożenie zamówienia!\"){\n    msg.payload=\"lost\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 340,
+        "wires": [
+            [
+                "0d6f08d89d9d2ae8"
+            ]
+        ]
+    },
+    {
+        "id": "a9fb27c741cc8329",
+        "type": "link out",
+        "z": "31f3e8585a966214",
+        "name": "order",
+        "mode": "link",
+        "links": [
+            "4d27276c9cca2c84",
+            "a563096ba7d8102f"
+        ],
+        "x": 1245,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5448865794266967",
+        "type": "link in",
+        "z": "31f3e8585a966214",
+        "name": "reboot",
+        "links": [
+            "8d2e11db3641682e"
+        ],
+        "x": 145,
+        "y": 320,
+        "wires": [
+            [
+                "77209b53149986a1"
+            ]
+        ]
+    },
+    {
+        "id": "5ed8a4f79b987233",
+        "type": "ui_text",
+        "z": "31f3e8585a966214",
+        "group": "d3e90d81c0fd129b",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "Uwagi",
+        "label": "",
+        "format": "<font color={{msg.topic}}>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 470,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d2a9a1d484e8e3bd",
+        "type": "ui_text",
+        "z": "31f3e8585a966214",
+        "group": "d3e90d81c0fd129b",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Formularz zamówienia",
+        "layout": "col-center",
+        "x": 480,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b910577f3503e4d0",
+        "type": "ui_text_input",
+        "z": "609f8040b3bdfd24",
+        "name": "",
+        "label": "Imię",
+        "tooltip": "",
+        "group": "583ff22e60774107",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Imie",
+        "topicType": "str",
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "91a772ddb1134bbf"
+            ]
+        ]
+    },
+    {
+        "id": "cf3fb5a4ab4c79c1",
+        "type": "ui_text_input",
+        "z": "609f8040b3bdfd24",
+        "name": "",
+        "label": "Nazwisko",
+        "tooltip": "",
+        "group": "583ff22e60774107",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Nazwisko",
+        "topicType": "str",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "91a772ddb1134bbf"
+            ]
+        ]
+    },
+    {
+        "id": "752a2cba708cc42e",
+        "type": "ui_button",
+        "z": "609f8040b3bdfd24",
+        "name": "Zatwierdź",
+        "group": "583ff22e60774107",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Zatwierdź",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "order",
+        "topicType": "str",
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "835b05d173e8b77a"
+            ]
+        ]
+    },
+    {
+        "id": "30adedaac50c93e5",
+        "type": "ui_button",
+        "z": "609f8040b3bdfd24",
+        "name": "",
+        "group": "583ff22e60774107",
+        "order": 17,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Anulu",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "fa-close",
+        "payload": "lost",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "3425a4a92633bae7",
+                "38e04ffe5497ec56"
+            ]
+        ]
+    },
+    {
+        "id": "ab242aa1282dc220",
+        "type": "ui_dropdown",
+        "z": "609f8040b3bdfd24",
+        "name": "Kolor",
+        "label": "",
+        "tooltip": "",
+        "place": "Wybierz Kolor Nadwozia",
+        "group": "583ff22e60774107",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pomarańczowy",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Czarny",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Biały",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "Kolor",
+        "topicType": "str",
+        "className": "",
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "91a772ddb1134bbf"
+            ]
+        ]
+    },
+    {
+        "id": "91a772ddb1134bbf",
+        "type": "function",
+        "z": "609f8040b3bdfd24",
+        "name": "tworzenie obiektu zamówienia",
+        "func": "var order = flow.get(\"order\");\nswitch (msg.topic){\n    case \"Imie\":\n        order.imie=msg.payload;\n        break;\n    case \"Nazwisko\":\n        order.nazwisko=msg.payload;\n        break;\n    case \"Kolor\":\n        order.id_koloru=msg.payload;\n}\nflow.set(\"order\",order);\nmsg.payload=order;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\nflow.set(\"order\",order);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "835b05d173e8b77a",
+        "type": "function",
+        "z": "609f8040b3bdfd24",
+        "name": "Sprawdzanie poprawności zamówienia",
+        "func": "var order=flow.get(\"order\");\nif(order.imie==\"\"){\n    msg.payload=\"Wprowadź Imię!\";\n    msg.topic='red';\n    return msg;\n}\nif(order.nazwisko==\"\"){\n    msg.payload=\"Wprowadź Nazwisko!\";\n     msg.topic='red';\n    return msg;\n}\nif(order.id_koloru==\"\"){\n    msg.payload=\"Musisz wybrać Kolor!\";\n     msg.topic='red';\n    return msg;\n}\nmsg.payload=\"Dziękujemy za złożenie zamówienia!\";\nmsg.topic='green';\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "712caa808ce95ec0",
+                "6b803ad5e55d0a9f",
+                "7db41744f2b00aa8"
+            ]
+        ]
+    },
+    {
+        "id": "712caa808ce95ec0",
+        "type": "function",
+        "z": "609f8040b3bdfd24",
+        "name": "Składanie zamówienia",
+        "func": "if(msg.topic==\"green\"){\n    msg.order=flow.get(\"order\");\n    var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\n    flow.set(\"order\",order);\n    return msg;}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 240,
+        "wires": [
+            [
+                "cd766d6a97a84bc8"
+            ]
+        ]
+    },
+    {
+        "id": "3425a4a92633bae7",
+        "type": "link out",
+        "z": "609f8040b3bdfd24",
+        "name": "close",
+        "mode": "link",
+        "links": [
+            "ee092524f3160692"
+        ],
+        "x": 1335,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a642f4b3e2c6a70c",
+        "type": "delay",
+        "z": "609f8040b3bdfd24",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1160,
+        "y": 300,
+        "wires": [
+            [
+                "3425a4a92633bae7",
+                "38e04ffe5497ec56"
+            ]
+        ]
+    },
+    {
+        "id": "38e04ffe5497ec56",
+        "type": "function",
+        "z": "609f8040b3bdfd24",
+        "name": "reset fromularza",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 280,
+        "wires": [
+            [
+                "ab242aa1282dc220",
+                "cf3fb5a4ab4c79c1",
+                "b910577f3503e4d0",
+                "7db41744f2b00aa8"
+            ]
+        ]
+    },
+    {
+        "id": "6b803ad5e55d0a9f",
+        "type": "function",
+        "z": "609f8040b3bdfd24",
+        "name": "Zamykanie formularza",
+        "func": "if(msg.payload==\"Dziękujemy za złożenie zamówienia!\"){\n    msg.payload=\"lost\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 300,
+        "wires": [
+            [
+                "a642f4b3e2c6a70c"
+            ]
+        ]
+    },
+    {
+        "id": "cd766d6a97a84bc8",
+        "type": "link out",
+        "z": "609f8040b3bdfd24",
+        "name": "order",
+        "mode": "link",
+        "links": [
+            "4d27276c9cca2c84",
+            "a563096ba7d8102f"
+        ],
+        "x": 1165,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "cef1cdc32d598a5f",
+        "type": "link in",
+        "z": "609f8040b3bdfd24",
+        "name": "reboot",
+        "links": [
+            "8d2e11db3641682e"
+        ],
+        "x": 65,
+        "y": 280,
+        "wires": [
+            [
+                "38e04ffe5497ec56"
+            ]
+        ]
+    },
+    {
+        "id": "7db41744f2b00aa8",
+        "type": "ui_text",
+        "z": "609f8040b3bdfd24",
+        "group": "583ff22e60774107",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "Uwagi",
+        "label": "",
+        "format": "<font color={{msg.topic}}>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 390,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "efb7d4540e519574",
+        "type": "ui_text",
+        "z": "609f8040b3bdfd24",
+        "group": "583ff22e60774107",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Formularz zamówienia",
+        "layout": "col-center",
+        "className": "",
+        "x": 400,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "40c8a4605536afaf",
+        "type": "ui_text_input",
+        "z": "38affffdb028d121",
+        "name": "",
+        "label": "Imię",
+        "tooltip": "",
+        "group": "5811db413307e930",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Imie",
+        "topicType": "str",
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "fb70237c45c2bcdc"
+            ]
+        ]
+    },
+    {
+        "id": "c71f31f240e46752",
+        "type": "ui_text_input",
+        "z": "38affffdb028d121",
+        "name": "",
+        "label": "Nazwisko",
+        "tooltip": "",
+        "group": "5811db413307e930",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Nazwisko",
+        "topicType": "str",
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "fb70237c45c2bcdc"
+            ]
+        ]
+    },
+    {
+        "id": "544b5bd6fc77ac29",
+        "type": "ui_button",
+        "z": "38affffdb028d121",
+        "name": "Zatwierdź",
+        "group": "5811db413307e930",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Zatwierdź",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "order",
+        "topicType": "str",
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "ae1b2187f02903a7"
+            ]
+        ]
+    },
+    {
+        "id": "61ed1ebf60ade45a",
+        "type": "ui_button",
+        "z": "38affffdb028d121",
+        "name": "",
+        "group": "5811db413307e930",
+        "order": 17,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Anulu",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "fa-close",
+        "payload": "lost",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 430,
+        "y": 320,
+        "wires": [
+            [
+                "0ead29cda4944462",
+                "82a9882cec69639c"
+            ]
+        ]
+    },
+    {
+        "id": "35af151896c503ba",
+        "type": "ui_dropdown",
+        "z": "38affffdb028d121",
+        "name": "Kolor",
+        "label": "",
+        "tooltip": "",
+        "place": "Wybierz Kolor Nadwozia",
+        "group": "5811db413307e930",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pomarańczowy",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Czarny",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Biały",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "Kolor",
+        "topicType": "str",
+        "className": "",
+        "x": 430,
+        "y": 240,
+        "wires": [
+            [
+                "fb70237c45c2bcdc"
+            ]
+        ]
+    },
+    {
+        "id": "fb70237c45c2bcdc",
+        "type": "function",
+        "z": "38affffdb028d121",
+        "name": "tworzenie obiektu zamówienia",
+        "func": "var order = flow.get(\"order\");\nswitch (msg.topic){\n    case \"Imie\":\n        order.imie=msg.payload;\n        break;\n    case \"Nazwisko\":\n        order.nazwisko=msg.payload;\n        break;\n    case \"Kolor\":\n        order.id_koloru=msg.payload;\n}\nflow.set(\"order\",order);\nmsg.payload=order;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\nflow.set(\"order\",order);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae1b2187f02903a7",
+        "type": "function",
+        "z": "38affffdb028d121",
+        "name": "Sprawdzanie poprawności zamówienia",
+        "func": "var order=flow.get(\"order\");\nif(order.imie==\"\"){\n    msg.payload=\"Wprowadź Imię!\";\n    msg.topic='red';\n    return msg;\n}\nif(order.nazwisko==\"\"){\n    msg.payload=\"Wprowadź Nazwisko!\";\n     msg.topic='red';\n    return msg;\n}\nif(order.id_koloru==\"\"){\n    msg.payload=\"Musisz wybrać Kolor!\";\n     msg.topic='red';\n    return msg;\n}\nmsg.payload=\"Dziękujemy za złożenie zamówienia!\";\nmsg.topic='green';\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "ec204591b1ad97b0",
+                "9a877cb7b78ba243",
+                "610cb248632b6c5c"
+            ]
+        ]
+    },
+    {
+        "id": "ec204591b1ad97b0",
+        "type": "function",
+        "z": "38affffdb028d121",
+        "name": "Składanie zamówienia",
+        "func": "if(msg.topic==\"green\"){\n    msg.order=flow.get(\"order\");\n    var order={\"imie\":\"\",\"nazwisko\":\"\",\"id_koloru\":\"\"};\n    flow.set(\"order\",order);\n    return msg;}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 240,
+        "wires": [
+            [
+                "1f439720e17b04bb"
+            ]
+        ]
+    },
+    {
+        "id": "0ead29cda4944462",
+        "type": "link out",
+        "z": "38affffdb028d121",
+        "name": "close",
+        "mode": "link",
+        "links": [
+            "ee092524f3160692"
+        ],
+        "x": 1375,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "95eef7db053fbd9f",
+        "type": "delay",
+        "z": "38affffdb028d121",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 300,
+        "wires": [
+            [
+                "0ead29cda4944462",
+                "82a9882cec69639c"
+            ]
+        ]
+    },
+    {
+        "id": "82a9882cec69639c",
+        "type": "function",
+        "z": "38affffdb028d121",
+        "name": "reset fromularza",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "35af151896c503ba",
+                "c71f31f240e46752",
+                "40c8a4605536afaf",
+                "610cb248632b6c5c"
+            ]
+        ]
+    },
+    {
+        "id": "9a877cb7b78ba243",
+        "type": "function",
+        "z": "38affffdb028d121",
+        "name": "Zamykanie formularza",
+        "func": "if(msg.payload==\"Dziękujemy za złożenie zamówienia!\"){\n    msg.payload=\"lost\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 300,
+        "wires": [
+            [
+                "95eef7db053fbd9f"
+            ]
+        ]
+    },
+    {
+        "id": "1f439720e17b04bb",
+        "type": "link out",
+        "z": "38affffdb028d121",
+        "name": "order",
+        "mode": "link",
+        "links": [
+            "4d27276c9cca2c84",
+            "a563096ba7d8102f"
+        ],
+        "x": 1205,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "ac707c582464364a",
+        "type": "link in",
+        "z": "38affffdb028d121",
+        "name": "reboot",
+        "links": [
+            "8d2e11db3641682e"
+        ],
+        "x": 105,
+        "y": 280,
+        "wires": [
+            [
+                "82a9882cec69639c"
+            ]
+        ]
+    },
+    {
+        "id": "610cb248632b6c5c",
+        "type": "ui_text",
+        "z": "38affffdb028d121",
+        "group": "5811db413307e930",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "name": "Uwagi",
+        "label": "",
+        "format": "<font color={{msg.topic}}>{{msg.payload}}",
+        "layout": "col-center",
+        "x": 430,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "658fe9b13111bf7a",
+        "type": "ui_text",
+        "z": "38affffdb028d121",
+        "group": "5811db413307e930",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Formularz zamówienia",
+        "layout": "col-center",
+        "x": 440,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "de318ba938ce329a",
+        "type": "ui_button",
+        "z": "174656ca14df8e7b",
+        "name": "Odświerz",
+        "group": "68016190d4bc6b36",
+        "order": 2,
+        "width": 13,
+        "height": 1,
+        "passthru": false,
+        "label": "Aktualne Statusy Zamówień",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 320,
+        "wires": [
+            [
+                "81430aa61685f6a9"
+            ]
+        ]
+    },
+    {
+        "id": "f55d7a66a28bda10",
+        "type": "ui_button",
+        "z": "174656ca14df8e7b",
+        "name": "",
+        "group": "68016190d4bc6b36",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Powrót",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-mail-reply",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 420,
+        "wires": [
+            [
+                "72c3169a1602c74e"
+            ]
+        ]
+    },
+    {
+        "id": "3fe5eeb523b0eb60",
+        "type": "ui_text",
+        "z": "174656ca14df8e7b",
+        "group": "68016190d4bc6b36",
+        "order": 1,
+        "width": 13,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Aktualne Zamówienia",
+        "layout": "col-center",
+        "className": "",
+        "x": 240,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "81430aa61685f6a9",
+        "type": "sqlite",
+        "z": "174656ca14df8e7b",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT \na.id, (b.imie||\" \"||b.nazwisko)as imie_nazwisko,c.nazwa_koloru, (d.oznaczenie||d.opis)as opis,a.data_rozpoczecia,a.data_zakonczenia \nFROM Historia_produkcji a\njoin Klienci b on b.id=a.id_klienta\njoin Kolory c on c.id=a.id_koloru\njoin Statusy d on d.id=a.id_statusu\nORDER BY a.id_statusu;\n\n",
+        "name": "Select from zamówienia",
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "9e872b64cc8b5cae"
+            ]
+        ]
+    },
+    {
+        "id": "9e872b64cc8b5cae",
+        "type": "ui_table",
+        "z": "174656ca14df8e7b",
+        "group": "68016190d4bc6b36",
+        "name": "Klienci",
+        "order": 3,
+        "width": 13,
+        "height": 9,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Nr",
+                "width": "55",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "imie_nazwisko",
+                "title": "Klient",
+                "width": "150",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwa_koloru",
+                "title": "Wariant",
+                "width": "115",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "opis",
+                "title": "Status",
+                "width": "",
+                "align": "center",
+                "formatter": "html",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "data_rozpoczecia",
+                "title": "data zamówienia",
+                "width": "150",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 430,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d967ea5be26dfe04",
+        "type": "comment",
+        "z": "174656ca14df8e7b",
+        "name": "Tabela zamówień",
+        "info": "",
+        "x": 400,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "014c0b99aebc6583",
+        "type": "link in",
+        "z": "174656ca14df8e7b",
+        "name": "",
+        "links": [
+            "399758448e7aa950"
+        ],
+        "x": 205,
+        "y": 360,
+        "wires": [
+            [
+                "81430aa61685f6a9"
+            ]
+        ]
+    },
+    {
+        "id": "72c3169a1602c74e",
+        "type": "link out",
+        "z": "174656ca14df8e7b",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "fef047be1678f1f6"
+        ],
+        "x": 345,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ad666de526eb8058",
+        "type": "ui_form",
+        "z": "0925afac21226919",
+        "name": "Logowanie",
+        "label": "",
+        "group": "ea6c8824a70a2126",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "options": [
+            {
+                "label": "Login",
+                "value": "login",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Hasło",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "login": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Zaloguj",
+        "cancel": "Anuluj",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "c9acbdd792bfba47"
+            ]
+        ]
+    },
+    {
+        "id": "73f61e03dc04b0e6",
+        "type": "ui_text",
+        "z": "0925afac21226919",
+        "group": "ea6c8824a70a2126",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Logowanie",
+        "layout": "col-center",
+        "className": "",
+        "x": 240,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c9acbdd792bfba47",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Sprawdzanie Hasła",
+        "func": "let dane_logowania=flow.get(\"dane_logowania\");\nlet dane_in =msg.payload\nlet ok_login=dane_in.login==dane_logowania.login;\nlet ok_password=dane_in.password==dane_logowania.password;\nmsg.payload=ok_login && ok_password;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "let dane_logowania={ login:\"ProdAdmin\", password:\"LetMeIn\" };\nflow.set(\"dane_logowania\",dane_logowania);\n",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "fc5982c4de99c49c"
+            ]
+        ]
+    },
+    {
+        "id": "fc5982c4de99c49c",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Hasło poprawne",
+        "func": "if(msg.payload){\nlet board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"Home\"];\nlet hide=[board+\"Logowanie\",board+\"Zamowienia\",board+\"Magazyn\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 260,
+        "wires": [
+            [
+                "2bc7e75097a6aaa1"
+            ]
+        ]
+    },
+    {
+        "id": "f574870a12718619",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Nazwy interface",
+        "func": "\n//wszystko jest w \"On start\"",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"dashboard\",\"Obsługa\");\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2bc7e75097a6aaa1",
+        "type": "ui_ui_control",
+        "z": "0925afac21226919",
+        "name": "",
+        "events": "all",
+        "x": 960,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a15db30e5282a0f",
+        "type": "ui_button",
+        "z": "0925afac21226919",
+        "name": "",
+        "group": "eaf8650af2fe91ea",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Odbiór zamówień",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "2bc46f8a05073511"
+            ]
+        ]
+    },
+    {
+        "id": "dd49edc4b6524325",
+        "type": "ui_button",
+        "z": "0925afac21226919",
+        "name": "",
+        "group": "eaf8650af2fe91ea",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Stan Magazynowy",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "7d7f9fbe5dae2b08"
+            ]
+        ]
+    },
+    {
+        "id": "2d2d490d91641d42",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "on start",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"Logowanie\"];\nlet hide=[board+\"Home\",board+\"Zamowienia\",board+\"Magazyn\",board+\"BazaDanych\",board+\"BazaDanychcd\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [
+                "2bc7e75097a6aaa1"
+            ]
+        ]
+    },
+    {
+        "id": "4dc5993124d4b098",
+        "type": "ui_button",
+        "z": "0925afac21226919",
+        "name": "",
+        "group": "eaf8650af2fe91ea",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Wyloguj",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            [
+                "2d2d490d91641d42"
+            ]
+        ]
+    },
+    {
+        "id": "2bc46f8a05073511",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Przenieś do Zamówień",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"Zamowienia\"];\nlet hide=[board+\"Home\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 380,
+        "wires": [
+            [
+                "8b4429681857761e",
+                "563ded140c4ceb5a"
+            ]
+        ]
+    },
+    {
+        "id": "7d7f9fbe5dae2b08",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Przenieś do Magazyn",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"Magazyn\"];\nlet hide=[board+\"Home\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "4cede71dca60671e",
+                "e617bfc84993a0ca"
+            ]
+        ]
+    },
+    {
+        "id": "8b4429681857761e",
+        "type": "link out",
+        "z": "0925afac21226919",
+        "name": "Odśwież tabelę zamówień",
+        "mode": "link",
+        "links": [
+            "8ce9e8efefb97b81",
+            "6f672be17ebb2a93",
+            "47250bff8b84f659"
+        ],
+        "x": 775,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a153ea450309c803",
+        "type": "ui_ui_control",
+        "z": "0925afac21226919",
+        "name": "",
+        "events": "connect",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "2d2d490d91641d42"
+            ]
+        ]
+    },
+    {
+        "id": "48f3f75511aad8d5",
+        "type": "link in",
+        "z": "0925afac21226919",
+        "name": "Powrót Zamówień",
+        "links": [
+            "511cd310f34caa17"
+        ],
+        "x": 195,
+        "y": 420,
+        "wires": [
+            [
+                "56bb444d23d609f6"
+            ]
+        ]
+    },
+    {
+        "id": "56bb444d23d609f6",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Pwrót do menu",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"Home\"];\nlet hide=[board+\"Zamowienia\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "563ded140c4ceb5a"
+            ]
+        ]
+    },
+    {
+        "id": "4cede71dca60671e",
+        "type": "link out",
+        "z": "0925afac21226919",
+        "name": "Odśwież tabelę magazynu",
+        "mode": "link",
+        "links": [
+            "65010b10aaa6ca30"
+        ],
+        "x": 765,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f010dd87441aa7fa",
+        "type": "link in",
+        "z": "0925afac21226919",
+        "name": "",
+        "links": [
+            "b1adcac768acaa1c"
+        ],
+        "x": 195,
+        "y": 520,
+        "wires": [
+            [
+                "61c7fc8f64eab017"
+            ]
+        ]
+    },
+    {
+        "id": "61c7fc8f64eab017",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Pwrót do menu",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet hide=[board+\"Magazyn\"];\nlet show=[board+\"Home\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 520,
+        "wires": [
+            [
+                "e617bfc84993a0ca"
+            ]
+        ]
+    },
+    {
+        "id": "3add6ba5636df71c",
+        "type": "ui_text",
+        "z": "0925afac21226919",
+        "group": "eaf8650af2fe91ea",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Menu Główne",
+        "layout": "row-center",
+        "className": "",
+        "x": 560,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "eb3cc07588f91228",
+        "type": "ui_button",
+        "z": "0925afac21226919",
+        "name": "",
+        "group": "eaf8650af2fe91ea",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Baza Danych",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "c4dae6484cef1f5b"
+            ]
+        ]
+    },
+    {
+        "id": "c4dae6484cef1f5b",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Przenieś do Magazyn",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet show=[board+\"BazaDanych\",board+\"BazaDanychcd\"];\nlet hide=[board+\"Home\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "8cbebc3f2a3f8d54",
+                "4409642da15d6efc"
+            ]
+        ]
+    },
+    {
+        "id": "8fae08f420bc8c95",
+        "type": "function",
+        "z": "0925afac21226919",
+        "name": "Pwrót do menu",
+        "func": "let board=flow.get(\"dashboard\")+\"_\";\nlet hide=[board+\"BazaDanych\",board+\"BazaDanychcd\"];\nlet show=[board+\"Home\"];\nmsg.payload={group:{\"show\":show,\"hide\":hide,focus:\"yes\"}};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 640,
+        "wires": [
+            [
+                "4409642da15d6efc"
+            ]
+        ]
+    },
+    {
+        "id": "ca97d587ee800cf9",
+        "type": "link in",
+        "z": "0925afac21226919",
+        "name": "Powrót BazaDanych",
+        "links": [
+            "bf01b24d7c954a37"
+        ],
+        "x": 195,
+        "y": 640,
+        "wires": [
+            [
+                "8fae08f420bc8c95"
+            ]
+        ]
+    },
+    {
+        "id": "8cbebc3f2a3f8d54",
+        "type": "link out",
+        "z": "0925afac21226919",
+        "name": "Odśwież tabelę magazynu",
+        "mode": "link",
+        "links": [],
+        "x": 765,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "563ded140c4ceb5a",
+        "type": "ui_ui_control",
+        "z": "0925afac21226919",
+        "name": "",
+        "events": "all",
+        "x": 920,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e617bfc84993a0ca",
+        "type": "ui_ui_control",
+        "z": "0925afac21226919",
+        "name": "",
+        "events": "all",
+        "x": 920,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4409642da15d6efc",
+        "type": "ui_ui_control",
+        "z": "0925afac21226919",
+        "name": "",
+        "events": "all",
+        "x": 920,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a8ed6af363b77bf",
+        "type": "ui_table",
+        "z": "2245ea0f0c08e762",
+        "group": "c8f43294042d1124",
+        "name": "Potrzebne części",
+        "order": 9,
+        "width": 6,
+        "height": 3,
+        "columns": [
+            {
+                "field": "typ",
+                "title": "Typ części",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwa_koloru",
+                "title": "kolor",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ilosc_w_magazynie",
+                "title": "W magazynie",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1170,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "215afd908068470d",
+        "type": "ui_button",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "group": "c8f43294042d1124",
+        "order": 16,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Przyjmij",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 640,
+        "wires": [
+            [
+                "8c0afa5512869a49"
+            ]
+        ]
+    },
+    {
+        "id": "661d6ebc83385367",
+        "type": "ui_table",
+        "z": "2245ea0f0c08e762",
+        "group": "c8f43294042d1124",
+        "name": "Klienci",
+        "order": 5,
+        "width": 13,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Nr",
+                "width": "55",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "imie_nazwisko",
+                "title": "Klient",
+                "width": "150",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwa_koloru",
+                "title": "Wariant",
+                "width": "115",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "opis",
+                "title": "Status",
+                "width": "",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "data_rozpoczecia",
+                "title": "data zamówienia",
+                "width": "150",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "a58daef7d054c2b7"
+            ]
+        ]
+    },
+    {
+        "id": "31e486896d0c2668",
+        "type": "template",
+        "z": "2245ea0f0c08e762",
+        "name": "Select Potrzebne części",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "SELECT a.id, a.typ, a.ilosc_w_magazynie, a.id_koloru, b.nazwa_koloru  FROM Czesci a\njoin Kolory b\non a.id_koloru=b.id\nWHERE id_koloru='{{payload.kolor}}' OR id_koloru = 0;",
+        "output": "str",
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "aef0877a70e03686"
+            ]
+        ]
+    },
+    {
+        "id": "aef0877a70e03686",
+        "type": "sqlite",
+        "z": "2245ea0f0c08e762",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1010,
+        "y": 280,
+        "wires": [
+            [
+                "8a8ed6af363b77bf",
+                "4b5b840216ed9042"
+            ]
+        ]
+    },
+    {
+        "id": "a71f243e03f47e17",
+        "type": "ui_button",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "group": "c8f43294042d1124",
+        "order": 2,
+        "width": 13,
+        "height": 1,
+        "passthru": false,
+        "label": "Oczekujące zamówienia",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "62db6e7edb263592"
+            ]
+        ]
+    },
+    {
+        "id": "fb7352db627deb28",
+        "type": "ui_button",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "group": "c8f43294042d1124",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Potrzebne Części",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "a58daef7d054c2b7"
+            ]
+        ]
+    },
+    {
+        "id": "4b5b840216ed9042",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Czy mamy potrzebne części",
+        "func": "let zamowienie=flow.get(\"WybraneZamowienie\");\nzamowienie.czesci=true;\nfor(let i=0;i<msg.payload.length;i++){\n    if(msg.payload[i].ilosc_w_magazynie<1){\n    zamowienie.czesci=false;\n    }\n}\nmsg.payload=zamowienie;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c0afa5512869a49",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Komunikat",
+        "func": "let zamowienie=flow.get(\"WybraneZamowienie\")\nif(zamowienie.id<1){\n    msg.payload=\"Nie wybrano zamówienia\";\n    msg.color=\"red\";\n}\nelse if(zamowienie.czesci){\n    msg.payload=\"Zatwierdzono zamowienie\";\n    msg.color=\"green\";\n}\nelse{    \n    msg.payload=\"Niewystarczająca ilość części\";\n    msg.color=\"red\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 640,
+        "wires": [
+            [
+                "1b528c8155cadbd1",
+                "8233e199adc64748"
+            ]
+        ]
+    },
+    {
+        "id": "a58daef7d054c2b7",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Wybrane zamowienie",
+        "func": "let zamowienie=flow.get(\"WybraneZamowienie\");\nzamowienie.id=msg.payload.id;\nzamowienie.kolor=msg.payload.id_koloru;\nmsg.payload=zamowienie;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"WybraneZamowienie\",{\"id\":0,\"czesci\":false,\"kolor\":0});",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 280,
+        "wires": [
+            [
+                "31e486896d0c2668",
+                "f0ac6b45e050e486"
+            ]
+        ]
+    },
+    {
+        "id": "f0ac6b45e050e486",
+        "type": "ui_text",
+        "z": "2245ea0f0c08e762",
+        "group": "c8f43294042d1124",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "Wybrane zamówienie",
+        "label": "",
+        "format": "<font size =4><font color = #0094CE>ID zamowienia: {{msg.payload.id}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 780,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "602017df1163605f",
+        "type": "template",
+        "z": "2245ea0f0c08e762",
+        "name": "zmiana statusu",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "UPDATE Historia_produkcji \nSET  id_statusu = 3\nWHERE id='{{payload.id}}';\n",
+        "output": "str",
+        "x": 760,
+        "y": 640,
+        "wires": [
+            [
+                "c727ca70f89b444b"
+            ]
+        ]
+    },
+    {
+        "id": "1b528c8155cadbd1",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Aktualizuj bazę danych",
+        "func": "if(msg.color==\"green\"){\n    msg.payload=flow.get(\"WybraneZamowienie\");\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 640,
+        "wires": [
+            [
+                "602017df1163605f",
+                "020058e0239406bf"
+            ]
+        ]
+    },
+    {
+        "id": "c727ca70f89b444b",
+        "type": "sqlite",
+        "z": "2245ea0f0c08e762",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1010,
+        "y": 640,
+        "wires": [
+            [
+                "7767db881e748e3b"
+            ]
+        ]
+    },
+    {
+        "id": "62db6e7edb263592",
+        "type": "sqlite",
+        "z": "2245ea0f0c08e762",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT a.id, (b.imie||\" \"||b.nazwisko)as imie_nazwisko,a.id_koloru,c.nazwa_koloru, d.opis,a.data_rozpoczecia,a.data_zakonczenia \nFROM Historia_produkcji a\njoin Klienci b on b.id=a.id_klienta\njoin Kolory c on c.id=a.id_koloru\njoin Statusy d on d.id=a.id_statusu\nWHERE d.id = 4;",
+        "name": "Select Zamówienia",
+        "x": 230,
+        "y": 280,
+        "wires": [
+            [
+                "661d6ebc83385367"
+            ]
+        ]
+    },
+    {
+        "id": "6f672be17ebb2a93",
+        "type": "link in",
+        "z": "2245ea0f0c08e762",
+        "name": "Reset",
+        "links": [
+            "0f304f6c17ba0a38",
+            "399758448e7aa950",
+            "8b4429681857761e"
+        ],
+        "x": 95,
+        "y": 320,
+        "wires": [
+            [
+                "62db6e7edb263592"
+            ]
+        ]
+    },
+    {
+        "id": "020058e0239406bf",
+        "type": "template",
+        "z": "2245ea0f0c08e762",
+        "name": "Odjęcie części z magazynu",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "UPDATE Czesci\nSET ilosc_w_magazynie=ilosc_w_magazynie-1\nWHERE id_koloru=0 OR id_koloru='{{payload.kolor}}';",
+        "output": "str",
+        "x": 800,
+        "y": 680,
+        "wires": [
+            [
+                "68f3aff8f21883fb"
+            ]
+        ]
+    },
+    {
+        "id": "68f3aff8f21883fb",
+        "type": "sqlite",
+        "z": "2245ea0f0c08e762",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1010,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a97e12d6e546049",
+        "type": "link in",
+        "z": "2245ea0f0c08e762",
+        "name": "Reset",
+        "links": [
+            "0f304f6c17ba0a38"
+        ],
+        "x": 445,
+        "y": 340,
+        "wires": [
+            [
+                "a58daef7d054c2b7"
+            ]
+        ]
+    },
+    {
+        "id": "1717b810709e8802",
+        "type": "delay",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 180,
+        "y": 420,
+        "wires": [
+            [
+                "e2f40deec95d62a4"
+            ]
+        ]
+    },
+    {
+        "id": "e2f40deec95d62a4",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Czyszczenie komunikatu",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "8222125e43093533"
+            ]
+        ]
+    },
+    {
+        "id": "8222125e43093533",
+        "type": "ui_text",
+        "z": "2245ea0f0c08e762",
+        "group": "c8f43294042d1124",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "name": "Komunikaty",
+        "label": "",
+        "format": "<font color={{msg.color}}>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 570,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "218fada99ae5458c",
+        "type": "link in",
+        "z": "2245ea0f0c08e762",
+        "name": "Komunikat",
+        "links": [
+            "8233e199adc64748"
+        ],
+        "x": 85,
+        "y": 420,
+        "wires": [
+            [
+                "1717b810709e8802",
+                "8222125e43093533"
+            ]
+        ]
+    },
+    {
+        "id": "8233e199adc64748",
+        "type": "link out",
+        "z": "2245ea0f0c08e762",
+        "name": "Komunikat",
+        "mode": "link",
+        "links": [
+            "218fada99ae5458c"
+        ],
+        "x": 415,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "7767db881e748e3b",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Reset wybranego zamówienia",
+        "func": "flow.set(\"WybraneZamowienie\",{\"id\":0,\"czesci\":false,\"kolor\":0});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 640,
+        "wires": [
+            [
+                "0f304f6c17ba0a38"
+            ]
+        ]
+    },
+    {
+        "id": "0f304f6c17ba0a38",
+        "type": "link out",
+        "z": "2245ea0f0c08e762",
+        "name": "Reset",
+        "mode": "link",
+        "links": [
+            "0a97e12d6e546049",
+            "6f672be17ebb2a93"
+        ],
+        "x": 1425,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "fb5fe3bd883209b4",
+        "type": "ui_text",
+        "z": "2245ea0f0c08e762",
+        "group": "c8f43294042d1124",
+        "order": 1,
+        "width": 20,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Odbiór Zamówień",
+        "layout": "col-center",
+        "className": "",
+        "x": 800,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1a90d05e3c5ba7e8",
+        "type": "ui_button",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "group": "c8f43294042d1124",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Odrzuć",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-close",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 720,
+        "wires": [
+            [
+                "bf6b1d2f62259e8f"
+            ]
+        ]
+    },
+    {
+        "id": "bf6b1d2f62259e8f",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Komunikat",
+        "func": "let zamowienie=flow.get(\"WybraneZamowienie\")\nif(zamowienie.id<1){\n    msg.payload=\"Nie wybrano zamówienia\";\n    msg.color=\"red\";\n}\nelse {\n    msg.payload=\"Odrzucono zamówienie\";\n    msg.color=\"green\";\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 720,
+        "wires": [
+            [
+                "d52352ec07e999cf",
+                "8233e199adc64748"
+            ]
+        ]
+    },
+    {
+        "id": "ec189f0715f0406f",
+        "type": "template",
+        "z": "2245ea0f0c08e762",
+        "name": "Zmiana statusu",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "UPDATE Historia_produkcji \nSET  id_statusu = 9\nWHERE id='{{payload.id}}';\n",
+        "output": "str",
+        "x": 760,
+        "y": 720,
+        "wires": [
+            [
+                "27c524fc8488776b"
+            ]
+        ]
+    },
+    {
+        "id": "27c524fc8488776b",
+        "type": "sqlite",
+        "z": "2245ea0f0c08e762",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1010,
+        "y": 720,
+        "wires": [
+            [
+                "7767db881e748e3b"
+            ]
+        ]
+    },
+    {
+        "id": "d52352ec07e999cf",
+        "type": "function",
+        "z": "2245ea0f0c08e762",
+        "name": "Aktualizuj Bazę Danych",
+        "func": "if(msg.color==\"green\"){\nmsg.payload=flow.get(\"WybraneZamowienie\");\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 720,
+        "wires": [
+            [
+                "ec189f0715f0406f"
+            ]
+        ]
+    },
+    {
+        "id": "428af1be2cede397",
+        "type": "ui_button",
+        "z": "2245ea0f0c08e762",
+        "name": "",
+        "group": "c8f43294042d1124",
+        "order": 19,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Powrót",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-mail-reply",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 800,
+        "wires": [
+            [
+                "511cd310f34caa17"
+            ]
+        ]
+    },
+    {
+        "id": "511cd310f34caa17",
+        "type": "link out",
+        "z": "2245ea0f0c08e762",
+        "name": "Powrót",
+        "mode": "link",
+        "links": [
+            "48f3f75511aad8d5"
+        ],
+        "x": 275,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "b236841db899bad4",
+        "type": "comment",
+        "z": "2245ea0f0c08e762",
+        "name": "Interfejs",
+        "info": "",
+        "x": 450,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0a5ace97ee3833b7",
+        "type": "comment",
+        "z": "2245ea0f0c08e762",
+        "name": "Obsługa bazy danych",
+        "info": "",
+        "x": 520,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "00ecfa9ab6123abe",
+        "type": "sqlite",
+        "z": "27aeadd781dd21d5",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT a.id,a.typ,a.id_koloru,a.ilosc_w_magazynie,b.nazwa_koloru FROM Czesci a\nJOIN Kolory b\nON a.id_koloru=b.id;",
+        "name": "Select Czesci",
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "4c22aa533389fa73"
+            ]
+        ]
+    },
+    {
+        "id": "4c22aa533389fa73",
+        "type": "ui_table",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "name": "",
+        "order": 4,
+        "width": 7,
+        "height": 6,
+        "columns": [
+            {
+                "field": "id",
+                "title": "ID",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwa_koloru",
+                "title": "Kolor",
+                "width": "115",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "typ",
+                "title": "Typ",
+                "width": "115",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ilosc_w_magazynie",
+                "title": "Ilosc",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "ae2dfb4f579c907a",
+                "e6e94e816f16428f",
+                "f1e9d25d6f531ed3"
+            ]
+        ]
+    },
+    {
+        "id": "65010b10aaa6ca30",
+        "type": "link in",
+        "z": "27aeadd781dd21d5",
+        "name": "Odśwież",
+        "links": [
+            "4cede71dca60671e",
+            "69b428ad61ef7d32"
+        ],
+        "x": 175,
+        "y": 300,
+        "wires": [
+            [
+                "00ecfa9ab6123abe"
+            ]
+        ]
+    },
+    {
+        "id": "d6dbd2a442632872",
+        "type": "ui_button",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "group": "87bdf13b0645e7a7",
+        "order": 20,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Powrót",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-mail-reply",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 500,
+        "wires": [
+            [
+                "b1adcac768acaa1c"
+            ]
+        ]
+    },
+    {
+        "id": "b1adcac768acaa1c",
+        "type": "link out",
+        "z": "27aeadd781dd21d5",
+        "name": "Powrót",
+        "mode": "link",
+        "links": [
+            "f010dd87441aa7fa"
+        ],
+        "x": 335,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5a36bccf59a95745",
+        "type": "ui_numeric",
+        "z": "27aeadd781dd21d5",
+        "name": "ilość",
+        "label": "",
+        "tooltip": "",
+        "group": "87bdf13b0645e7a7",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "999",
+        "step": 1,
+        "className": "",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "b524c9cf0ec9789f"
+            ]
+        ]
+    },
+    {
+        "id": "7c1046a0daabc71e",
+        "type": "ui_button",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "group": "87bdf13b0645e7a7",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Dodaj do magazynu",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "fa-check",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "2ed448cff6eab1a1"
+            ]
+        ]
+    },
+    {
+        "id": "ae2dfb4f579c907a",
+        "type": "ui_text",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "typ Części",
+        "label": "",
+        "format": "<font size =4><font color = #0094CE>Typ: {{msg.payload.typ}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 670,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d5c488374e514eb6",
+        "type": "ui_text",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "order": 10,
+        "width": 1,
+        "height": 1,
+        "name": "ilość",
+        "label": "",
+        "format": "<font size =4><font color = #0094CE>ilość",
+        "layout": "row-left",
+        "className": "",
+        "x": 210,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "501adb05ed81080c",
+        "type": "ui_button",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "group": "87bdf13b0645e7a7",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Aktualny stan magazynowy",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "00ecfa9ab6123abe"
+            ]
+        ]
+    },
+    {
+        "id": "1474f33a896b5371",
+        "type": "ui_text",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "order": 1,
+        "width": 13,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Aktualizacja Stanu Magazynowego",
+        "layout": "col-center",
+        "className": "",
+        "x": 220,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e6e94e816f16428f",
+        "type": "ui_text",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "kolor Części",
+        "label": "",
+        "format": "<font size =4><font color = #0094CE>Kolor: {{msg.payload.nazwa_koloru}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 670,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f1e9d25d6f531ed3",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "Przekaż Id",
+        "func": "Czesc=flow.get(\"DodawanaCzesc\");\nCzesc.id=msg.payload.id;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "flow.set(\"DodawanaCzesc\",{\"id\":0,\"ilosc\":0});\n",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b524c9cf0ec9789f",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "Przekaż ilość",
+        "func": "Czesc=flow.get(\"DodawanaCzesc\");\nCzesc.ilosc=msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ed448cff6eab1a1",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "Kmunikat",
+        "func": "Czesc=flow.get(\"DodawanaCzesc\")\nif(Czesc.id!=0){\n    msg.payload=\"Dodano części\";\n    msg.color=\"green\";\n}\nelse{\n    msg.payload=\"Wybierz część\";\n    msg.color=\"red\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 640,
+        "wires": [
+            [
+                "c0c6a99e76ddfcf5",
+                "617459f694d64861",
+                "102afc3b79b4af3e"
+            ]
+        ]
+    },
+    {
+        "id": "c0c6a99e76ddfcf5",
+        "type": "delay",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 640,
+        "wires": [
+            [
+                "80cc53559376484c"
+            ]
+        ]
+    },
+    {
+        "id": "80cc53559376484c",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "Czyszczenie komunikatu",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 640,
+        "wires": [
+            [
+                "617459f694d64861"
+            ]
+        ]
+    },
+    {
+        "id": "617459f694d64861",
+        "type": "ui_text",
+        "z": "27aeadd781dd21d5",
+        "group": "87bdf13b0645e7a7",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "Komunikaty",
+        "label": "",
+        "format": "<font color={{msg.color}}>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1010,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "102afc3b79b4af3e",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "Aktualizuj Bazę Danych",
+        "func": "if(msg.color==\"green\"){\n    msg.payload=flow.get(\"DodawanaCzesc\");\n    flow.set(\"DodawanaCzesc\",{\"id\":0,\"ilosc\":0});\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 680,
+        "wires": [
+            [
+                "e9f14e27f89dbbaf"
+            ]
+        ]
+    },
+    {
+        "id": "e9f14e27f89dbbaf",
+        "type": "template",
+        "z": "27aeadd781dd21d5",
+        "name": "Zwiększ liczbę Części",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "UPDATE Czesci\nSET ilosc_w_magazynie=ilosc_w_magazynie+'{{payload.ilosc}}'\nWhere id='{{payload.id}}';",
+        "output": "str",
+        "x": 920,
+        "y": 680,
+        "wires": [
+            [
+                "35fc03de1f6baa8b"
+            ]
+        ]
+    },
+    {
+        "id": "35fc03de1f6baa8b",
+        "type": "sqlite",
+        "z": "27aeadd781dd21d5",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1110,
+        "y": 680,
+        "wires": [
+            [
+                "69b428ad61ef7d32"
+            ]
+        ]
+    },
+    {
+        "id": "69b428ad61ef7d32",
+        "type": "link out",
+        "z": "27aeadd781dd21d5",
+        "name": "Odśwież",
+        "mode": "link",
+        "links": [
+            "65010b10aaa6ca30",
+            "beaf9e86c51cdb0c",
+            "b17aecaa7729e1a7"
+        ],
+        "x": 1195,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "ddbfc1892d068af0",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "wczyść",
+        "func": "msg.payload=\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 220,
+        "wires": [
+            [
+                "ae2dfb4f579c907a",
+                "e6e94e816f16428f"
+            ]
+        ]
+    },
+    {
+        "id": "7c8dcce167bac749",
+        "type": "function",
+        "z": "27aeadd781dd21d5",
+        "name": "wyczyść",
+        "func": "msg.payload=0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "5a36bccf59a95745"
+            ]
+        ]
+    },
+    {
+        "id": "b17aecaa7729e1a7",
+        "type": "link in",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "links": [
+            "69b428ad61ef7d32"
+        ],
+        "x": 165,
+        "y": 440,
+        "wires": [
+            [
+                "7c8dcce167bac749"
+            ]
+        ]
+    },
+    {
+        "id": "beaf9e86c51cdb0c",
+        "type": "link in",
+        "z": "27aeadd781dd21d5",
+        "name": "",
+        "links": [
+            "69b428ad61ef7d32"
+        ],
+        "x": 405,
+        "y": 220,
+        "wires": [
+            [
+                "ddbfc1892d068af0"
+            ]
+        ]
+    },
+    {
+        "id": "f0d219d226d46dc9",
+        "type": "comment",
+        "z": "27aeadd781dd21d5",
+        "name": "Interfejs",
+        "info": "",
+        "x": 450,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b8ce3c70bf5101f8",
+        "type": "comment",
+        "z": "27aeadd781dd21d5",
+        "name": "Obsługa interfejsu",
+        "info": "",
+        "x": 590,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "dd806d08c60fa70a",
+        "type": "ui_table",
+        "z": "3a2be6d3e40d05be",
+        "group": "fa5f17a2ded92777",
+        "name": "Klienci",
+        "order": 5,
+        "width": 6,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Nr",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "imie",
+                "title": "Imię",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwisko",
+                "title": "Nazwisko",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 630,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "1ee0b24d1a5a18f1",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT*FROM Klienci;",
+        "name": "Select Klienci",
+        "x": 380,
+        "y": 780,
+        "wires": [
+            [
+                "dd806d08c60fa70a"
+            ]
+        ]
+    },
+    {
+        "id": "bc6c7520a6b6264a",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "fa5f17a2ded92777",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Kleinci",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "1ee0b24d1a5a18f1"
+            ]
+        ]
+    },
+    {
+        "id": "8d15b46025d01629",
+        "type": "ui_table",
+        "z": "3a2be6d3e40d05be",
+        "group": "fa5f17a2ded92777",
+        "name": "Części",
+        "order": 6,
+        "width": 6,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_koloru",
+                "title": "Id Koloru",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "typ",
+                "title": "Typ",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "ilosc_w_magazynie",
+                "title": "ilosc_w_magazynie",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 630,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "f873daf4c66f2915",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT*FROM Czesci;",
+        "name": "Select Czesci",
+        "x": 380,
+        "y": 820,
+        "wires": [
+            [
+                "8d15b46025d01629"
+            ]
+        ]
+    },
+    {
+        "id": "09fa59bdcbf69358",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "fa5f17a2ded92777",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Części",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 820,
+        "wires": [
+            [
+                "f873daf4c66f2915"
+            ]
+        ]
+    },
+    {
+        "id": "c022145b10e7d519",
+        "type": "ui_table",
+        "z": "3a2be6d3e40d05be",
+        "group": "fa5f17a2ded92777",
+        "name": "Statusy",
+        "order": 7,
+        "width": 6,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "opis",
+                "title": "Opis",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "oznaczenie",
+                "title": "Oznaczenie",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 640,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ce406434939d14d1",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT*FROM Statusy;",
+        "name": "Select Statusy",
+        "x": 380,
+        "y": 860,
+        "wires": [
+            [
+                "c022145b10e7d519"
+            ]
+        ]
+    },
+    {
+        "id": "9e43131dc8a32e1b",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "fa5f17a2ded92777",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Statusy",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 860,
+        "wires": [
+            [
+                "ce406434939d14d1"
+            ]
+        ]
+    },
+    {
+        "id": "33c313badb064f11",
+        "type": "ui_table",
+        "z": "3a2be6d3e40d05be",
+        "group": "e352001761951605",
+        "name": "Kolory",
+        "order": 4,
+        "width": 4,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "nazwa_koloru",
+                "title": "nazwa Koloru",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 630,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "714e4b6ba0d4b0bd",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT*FROM Kolory;",
+        "name": "Select Kolory",
+        "x": 370,
+        "y": 900,
+        "wires": [
+            [
+                "33c313badb064f11"
+            ]
+        ]
+    },
+    {
+        "id": "14eaae0b3e0a89ce",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "e352001761951605",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Kolory",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 900,
+        "wires": [
+            [
+                "714e4b6ba0d4b0bd"
+            ]
+        ]
+    },
+    {
+        "id": "81fb1ec7f13792ec",
+        "type": "ui_table",
+        "z": "3a2be6d3e40d05be",
+        "group": "e352001761951605",
+        "name": "Historia Produkcji",
+        "order": 5,
+        "width": 14,
+        "height": 7,
+        "columns": [
+            {
+                "field": "id",
+                "title": "Id",
+                "width": "55",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_klienta",
+                "title": "Id Klienta",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_koloru",
+                "title": "Id Koloru",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "id_statusu",
+                "title": "Id Statusu",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "data_rozpoczecia",
+                "title": "Data Rozpoczęcia",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "data_zakonczenia",
+                "title": "Data Zakonczenia",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 670,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "9f96a54d35f7da84",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT*FROM Historia_produkcji;",
+        "name": "Select Historia Produkcji",
+        "x": 410,
+        "y": 940,
+        "wires": [
+            [
+                "81fb1ec7f13792ec"
+            ]
+        ]
+    },
+    {
+        "id": "f61ae098059323c3",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "e352001761951605",
+        "order": 3,
+        "width": 14,
+        "height": 1,
+        "passthru": false,
+        "label": "Historia Produkcji",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-refresh",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 940,
+        "wires": [
+            [
+                "9f96a54d35f7da84"
+            ]
+        ]
+    },
+    {
+        "id": "61740d7278c54c10",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\n\nKlienci(\n    id          INTEGER       PRIMARY KEY AUTOINCREMENT NOT NULL,\n    imie        TEXT    ,\n    nazwisko    TEXT\n);\n\n",
+        "name": "Create Klienci",
+        "x": 840,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c29cccda28f39620",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\nCzesci(\n    id                INTEGER  PRIMARY KEY AUTOINCREMENT NOT NULL,\n    id_koloru         INTEGER,\n    typ                  TEXT,\n    ilosc_w_magazynie  NUMBER\n);",
+        "name": "Create Czesci",
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "781fc636d74b8a7f"
+            ]
+        ]
+    },
+    {
+        "id": "f92004453be4c229",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\nKolory(\n    id              INTEGER  PRIMARY KEY NOT NULL,\n    nazwa_koloru    TEXT\n);",
+        "name": "Create Kolory",
+        "x": 840,
+        "y": 540,
+        "wires": [
+            [
+                "f651dd7657e6a40c"
+            ]
+        ]
+    },
+    {
+        "id": "77ccdff4c304c3b0",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\n\nHistoria_produkcji(\n    id                  INTEGER PRIMARY KEY AUTOINCREMENT   NOT NULL,\n    id_klienta          INTEGER,\n    id_koloru           INTEGER,\n    id_statusu          INTEGER,\n    data_rozpoczecia    DATETIME,\n    data_zakonczenia    DATETIME\n    );",
+        "name": "Create Historia_produkcji",
+        "x": 870,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f651dd7657e6a40c",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "INSERT INTO Kolory (id,nazwa_koloru)\nVALUES  (0,\"szary\"),\n        (1,\"pomarańczowy\"),\n        (2,\"czarny\"),\n        (3,\"biały\");",
+        "name": "Insert Into  Kolory",
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "781fc636d74b8a7f",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "INSERT INTO Czesci (id_koloru,typ,ilosc_w_magazynie)\nVALUES  (0,\"podwozie\",3),\n        (1,\"dach\",1),\n        (1,\"karoseria\",1),\n        (2,\"dach\",1),\n        (2,\"karoseria\",1),\n        (3,\"dach\",1),\n        (3,\"karoseria\",1);\n       ",
+        "name": "Insert Into Czesci",
+        "x": 1170,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1adc40c4c35b5068",
+        "type": "inject",
+        "z": "3a2be6d3e40d05be",
+        "name": "Reset Bazy Danych",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "7786d34d4cbcd5ae",
+                "0ffd648d8dfcd1bf",
+                "c599cf66aef5b7df",
+                "a01f203d6094a167",
+                "dedfd8095e2ad14f"
+            ]
+        ]
+    },
+    {
+        "id": "7786d34d4cbcd5ae",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE Klienci;",
+        "name": "usuwanie Klientów",
+        "x": 390,
+        "y": 460,
+        "wires": [
+            [
+                "61740d7278c54c10"
+            ]
+        ]
+    },
+    {
+        "id": "0ffd648d8dfcd1bf",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE Czesci;",
+        "name": "usuwanie Czesci",
+        "x": 390,
+        "y": 500,
+        "wires": [
+            [
+                "c29cccda28f39620"
+            ]
+        ]
+    },
+    {
+        "id": "c599cf66aef5b7df",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE Kolory;",
+        "name": "usuwanie Kolorów",
+        "x": 390,
+        "y": 540,
+        "wires": [
+            [
+                "f92004453be4c229"
+            ]
+        ]
+    },
+    {
+        "id": "a01f203d6094a167",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE Historia_produkcji;",
+        "name": "usuwanie historii_produkcji",
+        "x": 420,
+        "y": 580,
+        "wires": [
+            [
+                "77ccdff4c304c3b0"
+            ]
+        ]
+    },
+    {
+        "id": "c1986432d81351a5",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "CREATE TABLE IF NOT EXISTS\nStatusy(\n    id          INTEGER  PRIMARY KEY  NOT NULL,\n    opis        TEXT,\n    oznaczenie  TEXT\n);",
+        "name": "Create Statusy",
+        "x": 840,
+        "y": 620,
+        "wires": [
+            [
+                "89ce45f4d62f7274"
+            ]
+        ]
+    },
+    {
+        "id": "dedfd8095e2ad14f",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "DROP TABLE Statusy;",
+        "name": "usuwanie Statusów",
+        "x": 390,
+        "y": 620,
+        "wires": [
+            [
+                "c1986432d81351a5"
+            ]
+        ]
+    },
+    {
+        "id": "89ce45f4d62f7274",
+        "type": "sqlite",
+        "z": "3a2be6d3e40d05be",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "INSERT INTO Statusy (id,opis,oznaczenie)\nVALUES  (1,\"Gotowy\",\"<font color=green>\"),\n        (2,\"W trakcie produkcji\",\"<font color = #0094CE>\"),\n        (3,\"Oczekiwanie na produkcję\",\"<font color = #0094CE>\"),\n        (4,\"Oczekiwanie na zatwierdzenie\",\"<font color = black>\"),\n        (9,\"Odzrucony\",\"<font color = red>\");",
+        "name": "Insert Into  Statusy",
+        "x": 1170,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e1e90d205fe00aa",
+        "type": "ui_text",
+        "z": "3a2be6d3e40d05be",
+        "group": "fa5f17a2ded92777",
+        "order": 1,
+        "width": 18,
+        "height": 1,
+        "name": "Nagłówek",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Baza",
+        "layout": "row-spread",
+        "className": "",
+        "x": 260,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "44b36e04328aa8d4",
+        "type": "ui_text",
+        "z": "3a2be6d3e40d05be",
+        "group": "e352001761951605",
+        "order": 1,
+        "width": 18,
+        "height": 1,
+        "name": "Nagłówek cd",
+        "label": "",
+        "format": "<font size =5><font color = #0094CE>Danych",
+        "layout": "row-left",
+        "className": "",
+        "x": 410,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0d9cacefb0c8e0e2",
+        "type": "comment",
+        "z": "3a2be6d3e40d05be",
+        "name": "Setup Bazy Danych",
+        "info": "",
+        "x": 750,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "3dfc737670e2d156",
+        "type": "comment",
+        "z": "3a2be6d3e40d05be",
+        "name": "Wyświetlanie Tabel",
+        "info": "",
+        "x": 510,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "56050d136605310b",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "e352001761951605",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Powrót",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-mail-reply",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 1060,
+        "wires": [
+            [
+                "bf01b24d7c954a37"
+            ]
+        ]
+    },
+    {
+        "id": "bf01b24d7c954a37",
+        "type": "link out",
+        "z": "3a2be6d3e40d05be",
+        "name": "Powrót",
+        "mode": "link",
+        "links": [
+            "ca97d587ee800cf9"
+        ],
+        "x": 305,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "2f23b18c7b3812be",
+        "type": "ui_button",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "group": "fa5f17a2ded92777",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset Bazy Danych",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "7786d34d4cbcd5ae",
+                "0ffd648d8dfcd1bf",
+                "c599cf66aef5b7df",
+                "a01f203d6094a167",
+                "dedfd8095e2ad14f"
+            ]
+        ]
+    },
+    {
+        "id": "f9282c5cb48fcc60",
+        "type": "comment",
+        "z": "3a2be6d3e40d05be",
+        "name": "Usuwanie Tabel",
+        "info": "",
+        "x": 400,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "472ff9830ddc6a37",
+        "type": "comment",
+        "z": "3a2be6d3e40d05be",
+        "name": "Tworzenie Tabel",
+        "info": "",
+        "x": 840,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f59f3af797a0fec2",
+        "type": "comment",
+        "z": "3a2be6d3e40d05be",
+        "name": "Wprowadzanie danych początkowych",
+        "info": "",
+        "x": 1210,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f0b919cb2bcc7f4c",
+        "type": "inject",
+        "z": "3a2be6d3e40d05be",
+        "name": "tworzenie bazy danych",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 620,
+        "y": 460,
+        "wires": [
+            [
+                "61740d7278c54c10",
+                "c29cccda28f39620",
+                "f92004453be4c229",
+                "77ccdff4c304c3b0",
+                "c1986432d81351a5"
+            ]
+        ]
+    },
+    {
+        "id": "bf34a8afe4ecc1cb",
+        "type": "inject",
+        "z": "3a2be6d3e40d05be",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 620,
+        "wires": [
+            [
+                "dedfd8095e2ad14f"
+            ]
+        ]
+    },
+    {
+        "id": "389fb011f9f65982",
+        "type": "sqlite",
+        "z": "9953461bdb0b0b2e",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "fixed",
+        "sql": "SELECT id,id_koloru FROM Historia_produkcji\nWHERE id_statusu=3;",
+        "name": "SQL zatwierdzone zamówienie",
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "9c03d18d81f1bf6a"
+            ]
+        ]
+    },
+    {
+        "id": "9c03d18d81f1bf6a",
+        "type": "function",
+        "z": "9953461bdb0b0b2e",
+        "name": "Przekazywanie id koloru do arduino",
+        "func": "if(msg.payload.length>0){\n    msg.order=msg.payload[0].id;\n    msg.payload=msg.payload[0].id_koloru;\n\n}\nelse{\n    msg.payload=0;\n    msg.order=0;  \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 240,
+        "wires": [
+            [
+                "fee1b79740c15436",
+                "0ca107e5d14e3731"
+            ]
+        ]
+    },
+    {
+        "id": "fee1b79740c15436",
+        "type": "serial out",
+        "z": "9953461bdb0b0b2e",
+        "name": "Arduino IN",
+        "serial": "505f6a75156b2e88",
+        "x": 990,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "82cf60b2dc897365",
+        "type": "serial in",
+        "z": "9953461bdb0b0b2e",
+        "name": "",
+        "serial": "505f6a75156b2e88",
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "1f1fcb0722e7e7ba"
+            ]
+        ]
+    },
+    {
+        "id": "0ca107e5d14e3731",
+        "type": "template",
+        "z": "9953461bdb0b0b2e",
+        "name": "Zaktualizuj status Zamówienia w produkcji",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "UPDATE Historia_produkcji\nSET id_statusu=2\nWHERE id='{{order}}';",
+        "output": "str",
+        "x": 1060,
+        "y": 300,
+        "wires": [
+            [
+                "3b57b4ab11c3c1a4"
+            ]
+        ]
+    },
+    {
+        "id": "3b57b4ab11c3c1a4",
+        "type": "sqlite",
+        "z": "9953461bdb0b0b2e",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 1290,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f1fcb0722e7e7ba",
+        "type": "template",
+        "z": "9953461bdb0b0b2e",
+        "name": "Zaktalizuj status zrealizowanego zamówienia",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Update Historia_produkcji\nSET id_statusu = 1, data_zakonczenia=datetime('now','+2 hour')\n\nWHERE id_statusu = 2 AND id_koloru='{{payload}}';",
+        "output": "str",
+        "x": 630,
+        "y": 420,
+        "wires": [
+            [
+                "875afe0cee4dcd86"
+            ]
+        ]
+    },
+    {
+        "id": "875afe0cee4dcd86",
+        "type": "sqlite",
+        "z": "9953461bdb0b0b2e",
+        "mydb": "86f57378d5c3c3c0",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQL",
+        "x": 870,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "80a79d708c85396e",
+        "type": "comment",
+        "z": "9953461bdb0b0b2e",
+        "name": "Obsługa wysyłania zleceń do linii produkcyjnej",
+        "info": "",
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e41ea2761aa5d3dd",
+        "type": "comment",
+        "z": "9953461bdb0b0b2e",
+        "name": "Obsługa odbierania wykonanych zleceń od linii produkcyjnej",
+        "info": "",
+        "x": 800,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "d9be8e96029a2257",
+        "type": "inject",
+        "z": "9953461bdb0b0b2e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "389fb011f9f65982"
+            ]
+        ]
+    }
+]
